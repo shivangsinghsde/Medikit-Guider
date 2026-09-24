@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>AI Medikit Guider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQBsz2I8OTIOWQAYwztJqXhdsessHk9xgVwwP9eMh7eCA&s=10"
+        type="image/x-icon">
+</head>
+
+<body>
+
+    <header class="navbar">
+        <div class="container">
+            <div class="logo-box1">
+                <div class="logo1">
+                    <a href="index.html" class="brand">
+                        <img src="assets/images/logo.png" alt="AI Healthcare System Logo" />
+                    </a>
+                </div>
+
+                <div class="brand-text">
+                    <a href="index.html" class="brand">
+                        <button class="smallbutton"><small>AI Healthcare</small></button>
+                        <button class="smallbutton">
+                            <small>AI Medikit Guider</small>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <nav class="nav-links">
+                <a href="index.html"><button><strong>Home</strong></button></a>
+                <a href="symptom-checker.html" class="bsymp"><button><strong>Symptom Checker</strong></button></a>
+                <a href="medikit-guider.html" class="bsymp"><button><strong>Medikit Guider</strong></button></a>
+                <a href="first-aid.html"><button><strong>First Aid</strong></button></a>
+                <a href="medicine-info.html"><button><strong>Medicines</strong></button></a>
+                <a href="about.html"><button><strong>About</strong></button></a>
+            </nav>
+
+            <a href="doctor-consultation.html" class="nav-button">
+                <button>
+                    <i class="fa-solid fa-user-doctor"><strong>Consult Guide</strong></i>
+                </button>
+            </a>
+        </div>
+    </header>
+    <br />
+
+    <!-------------------------------->
+    <!------------UPDATE-------------->
+    <!-------------------------------->
+    <div class="mission-badge11">
+        <h2><u>AI HEALTHCARE TOOL</u></h2>
+    </div>
+
+<section class="hero11">
+        <div class="box20">
+            <div class="leftbox20">
+                <h1>
+                    AI Symptom Checker
+                </h1>
+
+                <p>
+                    Share your symptoms to receive preliminary healthcare guidance.
+                </p>
+
+                <div class="tool-header">
+
+                    <div class="feature-icon">
+                        <i class="fa-solid fa-stethoscope"></i>
+                    </div>
+
+                    <div>
+                        <h2>Describe Your Symptoms</h2>
+
+                        <p>
+                            Provide basic information to help organize preliminary
+                            guidance.
+                        </p>
+                    </div>
+
+                </div>
+
+
+                <form id="symptomForm">
+
+                    <div class="form-group">
+
+                        <label for="age">
+                            Age
+                        </label>
+
+                        <input type="number" id="age" placeholder="   Enter your age" min="1" max="120">
+
+                    </div>
+
+
+                    <div class="form-group1">
+
+                        <label for="gender">
+                            Gender
+                        </label>
+
+                        <select id="gender">
+
+                            <option value="">
+                                Select an option
+                            </option>
+
+                            <option>Male</option>
+                            <option>Female</option>
+                            <option>Prefer not to say</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <div class="form-group_full-width">
+
+                        <label for="symptoms">
+                            Describe Your Symptoms
+                        </label>
+
+                        <textarea id="symptoms" rows="7"
+                            placeholder=" Example: I have a headache and mild fever..."></textarea>
+
+                    </div>
+
+
+                    <div class="form-group_full-width1">
+
+                        <label for="duration">
+                            How long have you experienced these symptoms?
+                        </label>
+
+                        <select id="duration">
+
+                            <option value="">
+                                Select duration
+                            </option>
+
+                            <option>Less than 24 hours</option>
+                            <option>1–3 days</option>
+                            <option>4–7 days</option>
+                            <option>More than one week</option>
+
+                        </select>
+
+                    </div>
+
+
+                    <button type="submit" class="analyze_symptoms">
+
+                        <i class="fa-solid fa-brain"></i>
+
+                        Analyze Symptoms
+
+                    </button>
+
+                </form>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            <i class="fa-solid fa-pills"></i>
+                        </div>
+
+                        <h3>Preliminary Guidance Only</h3>
+
+                        <p>
+                            The AI system is designed to provide general information
+                        and does not replace professional medical advice.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon teal">
+                            <i class="fa-solid fa-list-check"></i>
+                        </div>
+
+                        <h3>Privacy Awareness</h3>
+
+                        <p>
+                            Avoid entering personally identifying or highly sensitive
+                        information into a demonstration system.
+                        </p>
+
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <section class="disclaimer-section">
+
+        <div class="container-disclaimer-box">
+
+            <div class="notice1">
+                <img src="assets/images/skull-2-fill.svg" alt="">
+                <div class="disclam">
+                    <h2><u>Medical Disclaimer</u></h2>
+
+                    <p>
+                        This symptom checker is a preliminary guidance tool. It cannot
+                        diagnose medical conditions or replace a qualified healthcare
+                        professional.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <footer>
+
+        <div class="container-footer-grid">
+
+            <div class="footer-brand">
+
+                <a href="index.html" class="brand">
+                    <div class="logo-box1">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </div>
+                </a>
+
+                <p>
+                    A technology-driven healthcare awareness <br> initiative supporting
+                    accessible preliminary guidance.
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Quick Links</h3>
+
+                <a href="index.html"><button>Home</button></a>
+                <a href="symptom-checker.html"><button>Symptom Checker</button></a>
+                <a href="medikit-guider.html"><button>Medikit Guider</button></a>
+                <a href="about.html"><button>About Project</button></a>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <h3>Healthcare Tools</h3>
+
+                <a href="first-aid.html"><button>First Aid Guide</button></a>
+                <a href="medicine-info.html"><button>Medicine Information</button></a>
+                <a href="doctor-consultation.html"><button>Doctor Guide</button></a>
+                <a href="contact.html"><button>Contact</button></a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>© 2026 AI Based Healthcare System & AI Medikit Guider.</p>
+
+                <p>Project Under Viksit Bharat Mission</p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
